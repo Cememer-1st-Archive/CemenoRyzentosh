@@ -1,15 +1,15 @@
-# My Ryzenyosh!!
+# Cememer's Ryzenyosh!!
 
 ![macOS's ScreenShot](./img/macScreenShot.png)
 
-![OpenCore's ScreenShot](./img/OCScreenShot.png)
+<!--- ![OpenCore's ScreenShot](./img/OCScreenShot.png) -->
 
 This is my hackintosh files.
 
 SMBIOS:MacPro7,1
 
 last modified: 
-- OpenCore 0.6.4
+- OpenCore 0.6.5
 - Working macOS 11.1
 
 # My Ryzentosh's Composition
@@ -80,8 +80,12 @@ DeviceProperties are applied to some PCIs, which are set to display the internal
 
 ## ACPI
 
-I've put in a lot of .aml files to solve the sleep problem, but haven't solved it yet.
+~~I've put in a lot of .aml files to solve the sleep problem, but haven't solved it yet.~~
+
+Postscript: Removed some unnecessary ACPI.
+
 However, this is probably a wifi issue as sleep worked only once when I turned off the wifi.
+
 So I have left it.
 
 ## Other
